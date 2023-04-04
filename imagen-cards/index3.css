@@ -1,0 +1,60 @@
+.card mb-4{
+    display: flex;
+}
+
+.card-fondo1{
+    width: 250px;
+    height: 235px;
+    background-color: #4B2177;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.card-fondo1:hover{
+    background-color: darkorchid;
+    transition: 1s linear ;
+}
+.card-fondo2{
+    width: 250px;
+    height: 235px;
+    background-color: #B55CCC;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.card-fondo2:hover{
+    background-color: #a205c9;
+    transition: 1s linear ;
+}
+.card-fondo3{
+    width: 250px;
+    height: 235px;
+    background-color: #6242AF;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.card-fondo3:hover{
+    background-color: #392666;
+    transition: 1s linear ;
+}
+
+.card-img-top{
+    margin-top: 7%;
+    width: 50%;
+    height: 80%;
+}
+h4, p{
+    text-align: center;
+}
+
+{
+    border: 2vh solid;
+
+}

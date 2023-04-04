@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>=Tech</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#"><h1>{=Tech}</h1></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CONOCENOS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">Compañia</a></li>
+              <li><a class="dropdown-item" href="team.html">Nuestro equipo</a></li>
+              <li><a class="dropdown-item" href="project.html">Nuestros proyectos</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="testimonials.html">Testimonios</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SERVICIOS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Analítica de datos</a></li>
+              <li><a class="dropdown-item" href="#">Almacenamiento</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Captura de datos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">CONTACTO</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+          <button class="btn btn-outline-secondary border-light text-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrusel -->
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagen-carrousel/Carousel.png" class="d-block w-100" alt="impulsa-negocio">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagen-carrousel/Carousel2.png" class="d-block w-100" alt="ideas-era-digital">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagen-carrousel/Carousel3.png" class="d-block w-100" alt="negocio-sostenible">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div>
+    <br>
+  </div>
+  <!-- Cards -->
+  <div class="card-group">
+    <div class="card mb-4 border-white">
+      <div class="view overlay">
+        <div class="card-fondo1">
+          <img class="card-img-top" src="imagen-cards/card1.png" alt="Card image cap">
+        </div>
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">¿Qué hacemos?</h4>
+        <p class="card-text">Ayudamos a nuevos emprendedores que necesiten apoyo y soporte para avanzar en este mundo y
+          quieran darle un impulso a su negocio llevándolo a la red.</p>
+      </div>
+    </div>
+    <div class="card mb-4 border-light">
+      <div class="view overlay">
+        <div class="card-fondo2">
+          <img class="card-img-top" src="imagen-cards/card2.png" alt="Card image cap"></div>
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">Activamos experiencias digitales con resultados.</h4>
+        <p class="card-text">Transformando el modelo de la relación y la forma de conectar con clientes/ciudadanos.
+          Integrando tecnologías de terceros, elemento clave en el soporte de modelos de gestión avanzada de clientes.
+        </p>
+      </div>
+    </div>
+    <div class="card mb-4 border-light">
+      <div class="view overlay">
+        <div class="card-fondo3">
+          <img class="card-img-top" src="imagen-cards/card3.png" alt="Card image cap"></div>
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">Nuestros servicios</h4>
+        <p class="card-text">
+          <ul>
+          <li>Estrategia y negocio</li> 
+          <li>Arquitectura tecnologica</li> 
+          <li>Desarrollo de Software</li> 
+          <li>Ciberseguridad</li> 
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Separacion -->
+  <div>
+    <br>
+  </div>
+ <!-- Línea 1 -->
+  <div class="border-top rounded-bottom-top" style="width:auto; height:12px" id="borde1"></div>
+   <!-- Text -->
+  <div class="card">
+    <div class="card-body">
+      <h3 class="card-title">Ponemos foco en evolucionar el core de tu negocio, proponiendo nuevas formas de garantizar
+        tus objetivos y generar valor para tus clientes</h3>
+    </div>
+  </div>
+
+  <!-- Línea 2 -->
+  <div class="border-top rounded-bottom-top" style="width:auto; height:12px" id="borde2"></div>
+  </div>
+  <div>
+    <br>
+  </div>
+  <div>
+    <div class="card border-white">
+      <div class="card-body">
+        <h3 class="card-title">Algunos de nuestros reconocimientos:</h3>
+      </div>
+    </div>
+  <!-- Separacion -->
+  <div>
+    <br>
+  </div>
+  <!-- Premios -->
+  <div class="card-group" id="premios">
+    <div class="card" style="border: 25px solid blueviolet">
+      <img src="./imagen-premios/premio-1.png" class="card-img-top" alt="premio1">
+    </div>
+    <div class="card" style="border: 25px solid rgb(193, 126, 255)">
+      <img src="./imagen-premios/premio-2.png" class="card-img-top" alt="premio2">
+    </div>
+    <div class="card" style="border: 25px solid rgb(95, 26, 95)">
+      <img src="./imagen-premios/premio-3.png" class="card-img-top" alt="premio3">
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="container-fluid">
+    <div class="row p-5 pb-2 bg-dark text-white">
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h1 mb-3 text-white text-left">{=}</p>
+        <p class="h4 mb-3 text-white text-left">=Tech</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3 text-left">Compañía</p>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Sobre nosotras</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Blog</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Carreras</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Contacto</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3 text-left">Soporte</p>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Centro de ayuda</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Centro de seguridad</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Principios de la comunidad</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3 text-left">Legal</p>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Política de cookies</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Política de privacidad</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Términos de servicio</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Cumplimiento de la ley</a>
+        </div>
+      </div>
+      <div class="col-xs-12 pt-4">
+        <p class="text-white text-center">Copyright - Todos los derechos reservados © 2022</p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
